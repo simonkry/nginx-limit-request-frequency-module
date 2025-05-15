@@ -4,6 +4,8 @@ nginx module for request frequency limiting via the *sliding window counter* alg
 
 See [thesis](docs/thesis.pdf) for more details on the design, implementation, and testing suite.
 
+See my [HTTP request body rate limiting filter module](https://github.com/simonkry/nginx-limit-body-rate-module).
+
 ## Building the nginx binary
 
 To build the binary, please download the official open-source nginx stable version 1.26.3 source code:
