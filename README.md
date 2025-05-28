@@ -1,10 +1,14 @@
 # nginx-limit-request-frequency-module
 
-nginx module for request frequency limiting via the *sliding window counter* algorithm.
+nginx module for HTTP request frequency limiting via the *sliding window counter* algorithm.
 
 See [thesis](docs/thesis.pdf) for more details on the design, implementation, and testing suite.
 
-See my [HTTP request body rate limiting filter module](https://github.com/simonkry/nginx-limit-body-rate-module).
+See also: [HTTP request body rate limiting filter module](https://github.com/simonkry/nginx-limit-body-rate-module).
+
+*This software was developed with the support of the Faculty of Information Technology, Czech Technical University in Prague, [fit.cvut.cz](https://fit.cvut.cz/).*
+
+![](fit_logo.svg)
 
 ## Building the nginx binary
 
